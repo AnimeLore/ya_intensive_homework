@@ -179,6 +179,7 @@ footer {
 
 a {
     transition: 250ms ease-in-out;
+    cursor: pointer;
 }
 a:hover {
     color: red;
