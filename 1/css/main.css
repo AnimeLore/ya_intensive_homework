@@ -152,6 +152,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    overflow-wrap: break-word;
 }
 .wrappering__wrapper {
     width: 100%;
@@ -194,6 +195,20 @@ a:hover {
     }
     .search__logo {
         margin-bottom: 16px;
+    }
+    .anti__wrapper {
+        width: 95%;
+    }
+    .search__outline {
+        width: 95%;
+
+    }
+    .a__desc {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    .probably__wrapper {
+        align-content: center;
     }
 }
 .tech__box {
