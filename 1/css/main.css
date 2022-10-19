@@ -198,7 +198,7 @@ a:hover {
         margin-bottom: 16px;
     }
     .anti__wrapper {
-        width: 95%;
+        width: 100%;
     }
     .search__outline {
         width: 95%;
@@ -216,7 +216,13 @@ a:hover {
         width: 100%;
     }
     .probably__wrapper {
+        align-items: center;
         align-content: center;
+
+    }
+    main {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
 .tech__box {
