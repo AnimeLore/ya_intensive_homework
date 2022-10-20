@@ -16,9 +16,9 @@ li {
 }
 .wrapper {
     display: flex;
-    width: 50%;
-    gap: 16px;
-
+    max-width: 40.500em;
+    column-gap: 1em;
+    flex-wrap: wrap;
 }
 .tech__list {
     display: flex;
@@ -34,14 +34,14 @@ li {
     margin: 5px 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.938em;
     text-decoration: none;
 }
 .tech__logo {
     box-sizing: border-box;
     width: 15px;
     height: 15px;
-    margin-right: 8px;
+    margin-right: 0.500em;
 }
 .tech__wrapper {
     display: flex;
@@ -58,7 +58,7 @@ li {
     width: 100px;
     height: 43px;
     background: url("https://yastatic.net/s3/home-static/_/Y/m/iYFGil-w8xoq_2OQvnXq6EwLY.svg");
-    margin-right: 24px;
+    margin-right: 1.500em;
 }
 .search__outline {
     padding: 0;
@@ -88,9 +88,9 @@ li {
     border: none;
     background: transparent;
     outline: none;
-    padding: 0 0 0 12px;
+    padding: 0 0 0 0.750em;
     font-family: Arial, serif;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .search__button {
     border-color: #FFC93D;
@@ -104,12 +104,12 @@ li {
     border-width: 2px;
     border-style: solid;
     border-left-width: 10px;
-    margin-left: -10px;
+    margin-left: -0.625em;
     z-index: 1;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0.625em;
+    border-top-right-radius: 0.625em;
     font-family: Arial, serif;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
     cursor: pointer;
 }
@@ -134,26 +134,27 @@ li {
 }
 .error__h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 1.625em;
     line-height: 1;
     font-weight: 400;
-    margin-top: 27px;
-    margin-bottom: 12px;
+    margin-top: 1.688em;
+    margin-bottom: 0.750em;
 }
 .error__content {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.938em;
     line-height: 1;
     font-weight: 400;
 }
 .error__wrapper {
-    margin-bottom: 32px;
+    margin-bottom: 2em;
 }
 .html, .body {
     width: 100%;
     height: 100%;
     overflow: hidden;
     overflow-wrap: break-word;
+    margin: 0;
 }
 .wrappering__wrapper {
     width: 100%;
@@ -165,16 +166,16 @@ li {
 }
 .footer__wrapper {
     position: absolute;
-    bottom: 20px;
+    bottom: 1.250em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 0.750em;
 }
 footer {
     color: #999;
 }
 .footer__links {
     color: #999;
-    margin-right: 16px;
+    margin-right: 1em;
 }
 
 a {
@@ -190,13 +191,14 @@ a:hover {
 @media (max-width: 680px) {
     .wrapper {
         flex-direction: column;
+
     }
     .search__wrapper {
         flex-direction: column;
         align-items: center;
     }
     .search__logo {
-        margin-bottom: 16px;
+        margin-bottom: 1.000em;
     }
     .anti__wrapper {
         width: 100%;
@@ -227,5 +229,5 @@ a:hover {
     }
 }
 .tech__box {
-    width: 100%;
+    width: min-content;
 }
