@@ -149,7 +149,7 @@ li {
 .error__wrapper {
     margin-bottom: 32px;
 }
-html, body {
+.html, .body {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -221,7 +221,7 @@ a:hover {
         align-content: center;
 
     }
-    main {
+    .main {
         margin-left: 8px;
         margin-right: 8px;
     }
