@@ -188,6 +188,10 @@ a:hover {
 .a__desc {
     color:black;
 }
+.tech__box {
+    width: min-content;
+}
+
 @media (max-width: 680px) {
     .wrapper {
         flex-direction: column;
@@ -227,7 +231,7 @@ a:hover {
         margin-left: 8px;
         margin-right: 8px;
     }
-}
-.tech__box {
-    width: min-content;
+    .tech__box {
+        width: 100%;
+    }
 }
